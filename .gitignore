@@ -38,7 +38,10 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+apigateway/node_modules/
+authentication/node_modules
+orders/node_modules
+products/node_modules
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -66,9 +69,14 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
+apigateway/.env
+authentication/.env
+orders/.env
+products/.env
 .env
 .env.*
 !.env.example
+
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
